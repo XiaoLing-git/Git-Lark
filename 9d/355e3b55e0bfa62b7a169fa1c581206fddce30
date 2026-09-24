@@ -1,0 +1,23 @@
+.gitignore
+  s_922af2dde1842c::t_8ee0bddb8268f8 1,3-10,12,14-32,35-218
+LICENSE
+  s_922af2dde1842c::t_095bd9a35518b7 1-674
+pyproject.toml
+  s_922af2dde1842c::t_b7097292faee1a 11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "9d355e3b55e0bfa62b7a169fa1c581206fddce30",
+  "prompts": {},
+  "sessions": {
+    "s_922af2dde1842c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0cbf9-b50e-76b2-bf4f-0e4dc0a82419",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
