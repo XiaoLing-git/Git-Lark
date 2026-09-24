@@ -1,0 +1,49 @@
+.gitignore
+  s_922af2dde1842c::t_a2f88c8d107e2a 1-10
+README.md
+  s_922af2dde1842c::t_cbc3a69c66a3f5 1-101
+build.ps1
+  s_922af2dde1842c::t_081f30f263149a 1-23
+install.ps1
+  s_922af2dde1842c::t_705d8e7654b7c9 1-29
+pyproject.toml
+  s_922af2dde1842c::t_7c25041390be95 1-34
+src/git_lark/__init__.py
+  s_922af2dde1842c::t_8e5f8022062cb9 1-3
+src/git_lark/__main__.py
+  s_922af2dde1842c::t_e090d36f9f19df 1-6
+src/git_lark/cli.py
+  s_922af2dde1842c::t_eb93e9ce1a4f0b 1-334
+src/git_lark/config.py
+  s_922af2dde1842c::t_6e8dab6fe24e99 1-92
+src/git_lark/git.py
+  s_922af2dde1842c::t_c867e9e9912364 1-132
+src/git_lark/hooks.py
+  s_922af2dde1842c::t_7e618f22df62ee 1-72
+src/git_lark/models.py
+  s_922af2dde1842c::t_e70a496c62a870 1-70
+src/git_lark/notify.py
+  s_922af2dde1842c::t_dd66cbaa0db9b4 1-123
+src/git_lark/providers.py
+  s_922af2dde1842c::t_70d464ef09ebe7 1-127
+src/git_lark/secrets.py
+  s_922af2dde1842c::t_ac044f05bdd038 1-137
+tests/test_git_lark.py
+  s_922af2dde1842c::t_4685b94d42eec2 1-133
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.4",
+  "base_commit_sha": "32b8bd350c687fbad120bbfc6bae09b8eb777420",
+  "prompts": {},
+  "sessions": {
+    "s_922af2dde1842c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0cbf9-b50e-76b2-bf4f-0e4dc0a82419",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "肖龙华 <xiaolonghua@wondertechlabs.com>"
+    }
+  }
+}
