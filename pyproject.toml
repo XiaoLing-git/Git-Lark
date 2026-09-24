@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "git-lark"
+version = "0.1.0"
+description = "Send Git commit notifications through configurable Feishu/Lark bots."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "git-lark contributors" }]
+dependencies = []
+
+[project.optional-dependencies]
+build = ["pyinstaller>=6.0,<7"]
+
+[project.scripts]
+git-lark = "git_lark.cli:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.black]
+line-length = 120
+target-version = ["py310"]
+
+[tool.isort]
+profile = "black"
+line_length = 120
+
