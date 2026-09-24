@@ -1,5 +1,7 @@
 # git-lark
 
+[简体中文](README.zh-CN.md) | English
+
 `git-lark` is a small Git extension that sends commit notifications through configurable Feishu/Lark bots.
 It works as both `git-lark ...` and `git lark ...` once the executable is available on `PATH`.
 
@@ -98,4 +100,8 @@ error is written below the repository Git metadata directory in `git-lark/notify
 On non-Windows systems this initial version stores secret values with an explicit `plain:` marker and restrictive file
 permissions. Do not copy that file or commit it. A future cross-platform release should use the operating system's
 native credential service.
+
+## License
+
+This project is licensed under GPL-3.0-only. See [LICENSE](LICENSE) for details.
 
